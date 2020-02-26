@@ -1,0 +1,118 @@
+html, body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden
+}
+
+.trigger {
+  font-size: 18px;
+  line-height: 64px;
+  padding: 0 24px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+body {
+  background: #f5f5f5 !important;
+}
+
+.trigger:hover {
+  color: #1890ff;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 66px;
+  background: transparent;
+}
+
+img {
+  width: 100px;
+  margin-right: 8px;
+}
+
+.ant-menu.ant-menu-dark .ant-menu-item-selected.customclass {
+  background-color: green; /*Overriden property*/
+}
+
+.container {
+  margin: 24px 16px;
+  padding: 24px;
+  background: #fff;
+}
+
+div.container_login {
+  padding: 24px;
+  background: rgba(22, 22, 22, 0.534);
+  max-width: 390px;
+  border-radius: 10px;
+}
+
+.center {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 300px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.hidden {
+  display: none;
+}
+
+.components-table-demo-control-bar .ant-form-item {
+  margin-right: 16px;
+  margin-bottom: 8px;
+}
+
+/*//////////*/
+.ant-menu-submenu-active {
+  border-bottom: none;
+}
+
+.ant-menu-submenu-selected {
+  /*border-radius: 30px;*/
+  border-bottom: 1px solid transparent !important;
+  color: inherit !important;
+}
+
+.ant-pagination-simple-pager input {
+  pointer-events: none;
+}
+
+.ant-pagination-simple .ant-pagination-simple-pager {
+  display: none !important;
+  content: "Joe's Task:";
+}
+
+.anticon.anticon-left {
+  content: "Joe's Task:";
+}
+
+.object-key-val {
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+}
+
+.ant-menu-submenu.ant-menu-submenu-horizontal.modified-item.ant-menu-submenu-selected {
+  color: white;
+}
+
+.ant-menu-submenu-inline {
+  border: #001529;
+}
+
+div.ant-drawer-content {
+  background-color: #001529;
+}
+
+div.ant-drawer-body {
+  padding: 0;
+}
+
+
+
+/* Layout Style by Nirawat */
